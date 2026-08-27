@@ -1,737 +1,189 @@
-# Sammy's Brew Board
+# ☕ Sammy's Brew Board
 
-Build Sammy’s Coffee Shop — AI Workplace Productivity Assistant
+**Brew better. Work smarter.**
 
-Build a modern, responsive AI-powered workplace productivity web application called “Sammy’s Coffee Shop AI Assistant.”
+Sammy's Brew Board is an AI-powered workplace productivity assistant created for **Sammy's Coffee Shop**.
 
-This is ONE integrated productivity platform designed for the staff and management of a fictional coffee shop called Sammy’s Coffee Shop.
+I built this project to show how AI can be used to make everyday workplace tasks easier and more organised. Instead of having separate AI tools for different things, I combined everything into one dashboard that can be used by a coffee-shop manager or staff member.
 
-The application should combine the visual identity and atmosphere of a modern coffee shop with the functionality of a professional AI workplace productivity dashboard.
+The project was created as part of my **CAPACITI AI learning programme**.
 
-The goal is to demonstrate how AI can help coffee-shop employees and managers automate everyday workplace tasks such as writing emails, summarising meeting notes, planning shifts/tasks, researching topics, and interacting with an AI workplace assistant.
+## 💡 What can it do?
 
-1. Overall Design Direction
+Sammy's Brew Board includes several AI-powered tools:
 
-Use a warm, premium coffee-shop aesthetic combined with a modern SaaS dashboard.
+### ✉️ Smart Email Generator
 
-The design should feel:
+Helps create professional workplace emails based on the purpose of the email and the tone selected.
 
-Professional
+It can be used for things like:
 
-Modern
+* Contacting suppliers
+* Communicating with staff
+* Responding to customers
+* Meeting invitations
+* Order confirmations
+* Schedule changes
 
-Warm
+### 📝 Meeting Notes Summarizer
 
-Minimal
+Turns long meeting notes into a more organised summary.
 
-Premium
+It identifies:
 
-Friendly
+* Main points
+* Key decisions
+* Action items
+* People responsible
+* Deadlines
+* Important dates
 
-Easy to navigate
+### 📋 AI Task Planner
 
-Suitable for a real business
+Helps organise workplace tasks based on their importance, deadlines and estimated completion time.
 
-Use a coffee-inspired visual identity with:
+It can create a daily or weekly plan and highlight the most important tasks.
 
-Warm cream/off-white backgrounds
+### 🔎 AI Research Assistant
 
-Coffee brown and espresso tones
+Helps research workplace topics and turns the information into an overview, key insights, recommendations and practical applications.
 
-Soft beige/tan accents
+### 💬 Sammy AI Assistant
 
-Subtle dark text
+A chatbot-style workplace assistant that can help with everyday tasks such as planning, writing emails, preparing for meetings and coming up with ideas for improving the coffee shop.
 
-Rounded cards
+## ☕ Sammy's Coffee Shop
 
-Clean typography
+The AI tools are connected to a fictional coffee-shop workplace so that the project has a real-world use case.
 
-Soft shadows
+The application includes a **Menu & Operations** section with:
 
-High-quality coffee-shop imagery
+**Coffee**
 
-Do NOT make it look like a generic corporate dashboard.
+* Sammy's Signature Latte
+* Classic Cappuccino
+* Espresso
+* Americano
+* Caramel Macchiato
+* Mocha
 
-The coffee-shop branding should be visible throughout the application while still maintaining a professional workplace-productivity feel.
+**Cold Drinks**
 
-Use the name:
+* Iced Latte
+* Iced Mocha
+* Cold Brew
+* Vanilla Frappe
 
-Sammy’s Coffee Shop
+**Tea**
 
-Tagline:
+* English Breakfast Tea
+* Green Tea
+* Chai Latte
 
-“Brew better. Work smarter.”
+**Bakery**
 
-2. Main Application Structure
+* Butter Croissant
+* Chocolate Muffin
+* Blueberry Muffin
+* Cinnamon Roll
+* Chocolate Chip Cookie
 
-Create a desktop dashboard with a left sidebar and a responsive mobile navigation.
+The operations section also includes information such as inventory status, supplier status, staff availability and daily priorities.
 
-The sidebar should contain:
+## 🎨 Design
 
-Dashboard
+I wanted the application to feel like a coffee shop while still looking like a proper workplace productivity platform.
 
-Smart Email
+The design uses:
 
-Meeting Notes
+* Warm coffee-inspired colours
+* Cream and beige backgrounds
+* Coffee brown and espresso tones
+* Rounded cards
+* Clean typography
+* Soft shadows
+* Coffee-shop imagery
 
-Task Planner
+The application is also responsive so that it can be used on desktop, tablet and mobile devices.
 
-Research Assistant
+## 🤖 AI & Prompt Engineering
 
-AI Assistant
+The AI features use structured prompts instead of simply sending a user's message directly to the AI.
 
-Menu & Operations
+The prompts consider things such as:
 
-Settings
+* Role
+* Context
+* Task
+* User input
+* Desired output
+* Tone
+* Constraints
 
-At the bottom of the sidebar include:
+This helps make the AI responses more useful and relevant to the workplace situation.
 
-Sammy’s Coffee Shop
+For example, the email generator is designed to understand that it is helping with communication for Sammy's Coffee Shop and should produce an appropriate professional email based on the selected tone.
 
-and a small profile section labelled:
+## 🛡️ Responsible AI
 
-Sammy | Manager
+AI is useful, but it isn't perfect.
 
-The application should work as ONE connected platform rather than separate unrelated pages.
+The application includes a Responsible AI notice reminding users that AI-generated information can contain errors or incomplete information.
 
-3. Dashboard
+> **Responsible AI Notice:**
+> AI-generated content may contain errors or incomplete information. Review and verify important information before using it for workplace decisions or communication.
 
-Create a professional dashboard homepage.
+Users should review AI-generated content before using it, especially when the information could affect workplace decisions.
 
-Header:
+## 🛠️ Technologies Used
 
-Good morning, Sammy 👋
+* React
+* TypeScript
+* Tailwind CSS
+* Lovable
+* AI-powered features
+* Responsive web design
 
-Subtitle:
+## 📁 Project Structure
 
-Your AI-powered workplace assistant for running Sammy’s Coffee Shop.
+The application is organised into reusable components and responsive layouts.
 
-Include summary cards such as:
+The main sections include:
 
-Today’s Tasks
+* Dashboard
+* Smart Email
+* Meeting Notes
+* Task Planner
+* Research Assistant
+* AI Assistant
+* Menu & Operations
+* Settings
 
-Pending Emails
+## 🚀 Getting Started
 
-Upcoming Meetings
+To work with the project:
 
-Staff Tasks
+1. Clone the repository.
+2. Install the required dependencies.
+3. Start the development server.
+4. Open the application in your browser.
 
-AI Productivity Score
+The project can also be continued and edited through Lovable.
 
-Create a “Quick Actions” section containing buttons/cards:
+## 🌐 Live Application
 
-Generate an Email
+[Sammy's Brew Board](https://brew-smart-assistant.lovable.app/)
 
-Summarize Meeting Notes
+## 👩🏾‍💻 About the Project
 
-Plan My Day
+This project was created to demonstrate a practical use of AI in the workplace.
 
-Research Something
+I chose a coffee shop as the workplace environment because it gives the AI tools a realistic context. A manager or staff member can use the same dashboard to handle communication, meetings, tasks and research without having to switch between different applications.
 
-Ask AI
+The main idea behind Sammy's Brew Board is simple:
 
-Add a section called:
+**Use AI to spend less time on repetitive workplace tasks and more time getting things done.**
 
-Today at Sammy’s
+---
 
-Display realistic fictional workplace information such as:
-
-Morning staff briefing
-
-Inventory check
-
-Supplier follow-up
-
-Staff scheduling
-
-Customer feedback review
-
-Add a small “AI Insight” card with an example insight such as:
-
-AI Insight
-“Three operational tasks are due today. Prioritising inventory and supplier communication first may help prevent delays.”
-
-Make the dashboard visually impressive and presentation-ready.
-
-4. Smart Email Generator
-
-Create a dedicated Smart Email page.
-
-Purpose:
-
-Allow Sammy’s Coffee Shop staff or management to generate professional workplace emails using AI.
-
-Include:
-
-Recipient field
-
-Subject field
-
-Email purpose/message field
-
-Tone selector
-
-Tone options:
-
-Formal
-
-Friendly
-
-Professional
-
-Persuasive
-
-Apologetic
-
-Include a “Generate Email” button.
-
-The AI output should appear in a large editable text area/card.
-
-Include buttons:
-
-Copy
-
-Edit
-
-Regenerate
-
-Clear
-
-Provide example workplace use cases:
-
-Supplier follow-up
-
-Staff communication
-
-Customer response
-
-Meeting invitation
-
-Order confirmation
-
-Schedule change
-
-Use structured AI prompting behind the scenes so that the generated email is professional, concise, relevant, and appropriate for the selected tone.
-
-5. Meeting Notes Summarizer
-
-Create a Meeting Notes page.
-
-Include a large input area where users can paste meeting notes.
-
-Button:
-
-Summarize with AI
-
-The AI should transform the notes into clearly organised sections:
-
-Summary
-
-Short overview of the meeting.
-
-Key Decisions
-
-Important decisions made.
-
-Action Items
-
-Tasks that need to be completed.
-
-Each action item should display:
-
-Task
-
-Person responsible
-
-Deadline
-
-Important Dates
-
-Extract deadlines or dates mentioned in the notes.
-
-Include example meeting notes related to Sammy’s Coffee Shop so the feature is easy to demonstrate.
-
-Allow users to:
-
-Copy summary
-
-Edit output
-
-Clear notes
-
-Regenerate
-
-6. AI Task Planner
-
-Create a Task Planner page.
-
-The user should be able to enter multiple workplace tasks.
-
-Include fields:
-
-Task
-
-Deadline
-
-Importance
-
-Estimated time
-
-Allow priorities:
-
-High
-
-Medium
-
-Low
-
-Add a button:
-
-Create My Plan
-
-The AI should organise the tasks into a practical daily or weekly schedule.
-
-Display the result visually as a clean schedule/timeline.
-
-Example tasks:
-
-Check inventory
-
-Contact coffee supplier
-
-Review staff availability
-
-Update weekly schedule
-
-Respond to customer feedback
-
-Prepare team meeting
-
-Check equipment
-
-Review sales report
-
-The AI should prioritise tasks based on urgency, importance, deadlines, and estimated time.
-
-Include:
-
-Today’s Priorities
-
-and
-
-Upcoming Tasks
-
-with clear visual priority indicators.
-
-7. AI Research Assistant
-
-Create a Research Assistant page.
-
-Purpose:
-
-Help Sammy’s Coffee Shop staff research workplace topics.
-
-Include:
-
-Research topic input
-
-Optional context field
-
-Research depth selector
-
-Options:
-
-Quick Overview
-
-Standard
-
-Detailed
-
-Button:
-
-Research with AI
-
-The output should contain:
-
-Overview
-
-Key Insights
-
-Recommendations
-
-Practical Application
-
-For example, a user could research:
-
-“Ways to reduce coffee-shop food waste.”
-
-The AI could provide practical operational recommendations.
-
-Other example research topics:
-
-Improving customer service
-
-Reducing inventory waste
-
-Social media marketing ideas
-
-Coffee-shop productivity
-
-Staff communication
-
-Sustainable coffee-shop practices
-
-Clearly label AI-generated research as AI-generated and remind users to verify important information.
-
-8. AI Workplace Chatbot
-
-Create an interactive page called:
-
-Sammy AI Assistant
-
-This should be a chatbot-style workplace assistant.
-
-Add a welcome message:
-
-“Hi Sammy! I’m your AI workplace assistant. What would you like to work on?”
-
-Users can ask workplace-related questions.
-
-Include suggested prompts:
-
-“Help me plan today’s tasks.”
-
-“Write an email to our coffee supplier.”
-
-“Summarize these meeting notes.”
-
-“Give me ideas to reduce food waste.”
-
-“Help me prepare for tomorrow’s staff meeting.”
-
-Create a modern chat interface with user and AI messages.
-
-The chatbot should maintain the current conversation during the session.
-
-9. Menu & Operations
-
-Create a separate section called:
-
-Menu & Operations
-
-This is NOT one of the main AI productivity features. It exists to connect the productivity platform to Sammy’s Coffee Shop.
-
-Create a beautiful coffee-shop menu containing fictional products.
-
-Coffee
-
-Sammy’s Signature Latte
-
-Classic Cappuccino
-
-Espresso
-
-Americano
-
-Caramel Macchiato
-
-Mocha
-
-Cold Drinks
-
-Iced Latte
-
-Iced Mocha
-
-Cold Brew
-
-Vanilla Frappe
-
-Tea
-
-English Breakfast Tea
-
-Green Tea
-
-Chai Latte
-
-Bakery
-
-Butter Croissant
-
-Chocolate Muffin
-
-Blueberry Muffin
-
-Cinnamon Roll
-
-Chocolate Chip Cookie
-
-Display menu items using attractive product cards with:
-
-Image
-
-Name
-
-Short description
-
-Price
-
-Use South African Rand (R) for prices.
-
-Make the menu visually consistent with Sammy’s Coffee Shop branding.
-
-Also include a small Operations section showing fictional operational information such as:
-
-Inventory status
-
-Supplier status
-
-Staff availability
-
-Daily priorities
-
-10. AI Prompt Engineering
-
-The AI features should use structured prompts rather than simply sending the user's text directly to an AI model.
-
-Prompts should include:
-
-Role
-
-Context
-
-Task
-
-User input
-
-Desired output format
-
-Tone
-
-Constraints
-
-For example:
-
-The Email Generator should instruct the AI to act as a professional workplace communications assistant working for Sammy’s Coffee Shop and generate a clear, concise email based on the user's purpose and selected tone.
-
-The Meeting Summarizer should instruct the AI to identify summaries, decisions, action items, responsible people, and deadlines.
-
-The Task Planner should instruct the AI to prioritise tasks based on urgency, importance, deadlines, and estimated completion time.
-
-The Research Assistant should instruct the AI to separate factual information, insights, recommendations, and areas requiring verification.
-
-11. Responsible AI
-
-Add a visible but unobtrusive disclaimer throughout the AI sections.
-
-Use:
-
-Responsible AI Notice
-
-“AI-generated content may contain errors or incomplete information. Review and verify important information before using it for workplace decisions or communication.”
-
-Do not present AI outputs as guaranteed facts.
-
-Add an information icon that can display additional responsible-AI guidance.
-
-12. Responsive Design
-
-The entire application must be responsive.
-
-Desktop:
-
-Sidebar navigation
-
-Multi-column dashboard cards
-
-Large workspace areas
-
-Tablet:
-
-Collapsible sidebar
-
-Responsive cards
-
-Mobile:
-
-Mobile navigation
-
-Single-column layout
-
-Touch-friendly buttons
-
-Properly sized text and input fields
-
-No horizontal scrolling.
-
-13. UI Components
-
-Use consistent reusable components:
-
-Cards
-
-Buttons
-
-Input fields
-
-Text areas
-
-Dropdowns
-
-Tabs
-
-Badges
-
-Toast notifications
-
-Modals
-
-Navigation
-
-Loading states
-
-Empty states
-
-Add realistic loading states such as:
-
-“Sammy AI is thinking…”
-
-Do not use excessive animations.
-
-Use subtle transitions and hover states.
-
-14. AI Output Experience
-
-AI-generated results should never feel like plain text dumped onto the screen.
-
-Format outputs using:
-
-Headings
-
-Bullet points
-
-Cards
-
-Badges
-
-Action-item lists
-
-Priority indicators
-
-Clearly separated sections
-
-Users should be able to edit AI-generated content before using it.
-
-Include:
-
-Copy
-
-Edit
-
-Regenerate
-
-where appropriate.
-
-15. Demo Data
-
-Pre-populate the application with realistic fictional Sammy’s Coffee Shop data so that the application looks complete immediately after loading.
-
-Do not leave the dashboard empty.
-
-Include realistic examples for:
-
-Tasks
-
-Meetings
-
-Emails
-
-Research
-
-Staff operations
-
-Menu items
-
-All data should be fictional.
-
-16. Technical Requirements
-
-Build the application using a modern frontend architecture.
-
-Use:
-
-React
-
-TypeScript
-
-Tailwind CSS
-
-Reusable components
-
-Responsive layouts
-
-Structure the code cleanly and professionally.
-
-Separate components logically.
-
-Use mock/demo AI responses if a real AI API is not configured, but structure the application so that real AI API integration can be added later.
-
-Do NOT expose API keys in frontend code.
-
-17. Final Quality Requirement
-
-The finished product should look like a real SaaS productivity platform created for a modern coffee-shop business.
-
-It should NOT look like a basic student CRUD application.
-
-The application should demonstrate:
-
-Practical AI implementation
-
-Prompt engineering
-
-Workplace problem solving
-
-Responsible AI
-
-Modern UI/UX
-
-Responsive design
-
-Multiple integrated AI productivity features
-
-The final experience should feel cohesive from beginning to end.
-
-Final branding
-
-Sammy’s Coffee Shop
-
-Brew better. Work smarter.
-
-The coffee-shop theme should enhance the productivity platform rather than overpower it.
-
-Make the final application polished enough to demonstrate in a professional portfolio and present as an AI-powered workplace productivity solution.
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://brew-smart-assistant.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/decc91bd-c161-4a11-9a4b-65a2f29b6ada).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+**Built with ☕ + AI using Lovable.**
